@@ -184,3 +184,44 @@ span:active:hover {
 	}
 }
 
+ /* ≥768px */
+ @media (max-width: 768px) {
+	span {
+		width: 0.3rem;
+		height: 0.3rem;
+		padding: 0.2rem;
+	}
+
+	.bar {
+		display: block;
+		padding: 0.5rem;
+		cursor: pointer;
+		background-color: transparent
+	}
+
+	.description-img {
+		font-size: 1.1rem;
+		letter-spacing: 0.1rem;
+	}
+}
+
+/* ≥420px */
+@media (max-width: 420px) {
+	span {
+		width: 0.2rem;
+		height: 0.2rem;
+		padding: 0.2rem;
+	}
+
+	.bar {
+		display: block;
+		padding: 0.4rem;
+		cursor: pointer;
+		background-color: transparent
+	}
+
+	.description-img {
+		font-size: 1rem;
+		letter-spacing: 0.1rem;
+	}
+}
