@@ -44,7 +44,7 @@ input[name="r"] {
 
 .wrapper-info-nav {
 	max-width: 65%;
-	margin: 3rem auto 0;
+	margin: 3rem auto;
 	display: flex;
 	align-items: center;
 }
@@ -63,7 +63,6 @@ input[name="r"] {
 .navigation {
 	max-width: 100%;
 	display: flex;
-	justify-content: flex-end;
 	margin: 0 auto;
 }
 .bar {
@@ -153,5 +152,35 @@ span:active:hover {
 	background-color: transparent;
 	border: 0.2rem solid #fff;
 	transition: all .4s ease;
+}
+
+/* media */
+
+/* ≥1440px  */
+@media (max-width: 1440px) {
+	.slider,
+	.slider-info {
+		width: auto;
+		max-width: 80%;
+	}
+
+	.wrapper-info-nav {
+		max-width: 80%;
+	}
+}
+
+/* ≥992px  */
+@media (max-width: 992px) {
+	.wrapper-info-nav {
+		margin: 2rem auto;
+		flex-direction: column-reverse;
+	}
+
+	.description-img {
+		padding-left: 0;
+		padding-top: 1rem;
+		display: flex;
+		justify-content: center;
+	}
 }
 
